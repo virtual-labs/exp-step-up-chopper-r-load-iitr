@@ -6,7 +6,7 @@
 A step-up chopper, also known as a boost chopper, is a type of DC-DC converter used to increase the output voltage of a DC source. It is commonly employed in various power electronic applications to 
 boost the voltage level efficiently and is considered the counterpart of the step-down chopper, which reduces the output voltage.The step-up chopper operates based on the principle of energy storage and transfer. 
 It includes a switch (usually a semiconductor device such as a MOSFET or IGBT), an inductor, a diode, and a capacitor.<br>
-<center> <img src="images\Fig 1.PNG "height=270px; style="mix-blend-mode: darken; -webkit-filter: contrast(150%);"></center>       
+<center> <img src="images\Fig 1.png "height=270px; style="mix-blend-mode: darken; -webkit-filter: contrast(150%);"></center>       
 <center><b style="font-size: 19px;">Fig. 1 Circuit diagram of Step-up chopper</b></center>
 
 ### **Working Principle of Step-up Chopper**
@@ -39,7 +39,7 @@ Thus, the circuit works as a step-up chopper. It may be noted here that, the vol
 
 ### **Analysis of Waveform:**
 
-<center> <img src="images\Fig 4.PNG "style="mix-blend-mode: darken; -webkit-filter: grayscale(100%); filter: grayscale(100%);"></center>
+<center> <img src="images\Fig 4.png "style="mix-blend-mode: darken; -webkit-filter: grayscale(100%); filter: grayscale(100%);"></center>
 <center><b style="font-size: 19px;">Fig. 4 Output waveform of source voltage, source current, load voltage and load current </b></center><br>
 
 The first waveform represents the source voltage which is a DC voltage equal to $V_s$. Therefore, it is shown as a straight line parallel to time axis. Second waveform shows the source current $i_s$ , When chopper (CH) is switched ON, the source current increases from its minimum value $I_1$ to maximum value $I_2$. It may also be noted that, this source current flows through the inductor during ON time. Therefore, it may be said that the current through the inductor L rises from $I_1$ to $I_2$ during ON period. During this time, no current flows through the load as shown in $i_o$ versus time (t) graph.<br>
