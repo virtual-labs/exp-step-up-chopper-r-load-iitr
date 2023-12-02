@@ -1,6 +1,4 @@
-{
-    "version": 2.0,
-    "questions":[
+[
 		{
 			"question": "The values of duty cycle (α) lies between ?",
 			"answers": {
@@ -52,4 +50,3 @@
 			"correctAnswer": "b"
 		}
 	]
-}
