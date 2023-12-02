@@ -1,0 +1,52 @@
+[
+		{
+			"question": "The values of duty cycle (α) lies between ?",
+			"answers": {
+				"a": "0 < α < 1",
+				"b": "0 > α > -1",
+				"c": "1 < α < 100",
+				"d": "0 ≤ α ≤ 1"
+			},
+			"correctAnswer": "d"
+		},
+		{
+			"question": "Find the expression for output voltage for a step-up chopper, assume linear variation of load current and α as the duty cycle?",
+			"answers": {
+				"a": "Vs/(1-α)",
+				"b": "Vs",
+				"c": "Vs/α",
+				"d": "none of the above"
+			},
+			"correctAnswer": "a"
+		},
+		{
+			"question": "Find the output voltage for a step-up chopper when it is operated at a duty cycle of 50 % and Vs = 240 V?",
+			"answers": {
+				"a": "240 V",
+				"b": "560 V",
+				"c": "480 V",
+				"d": "120 V"
+			},
+			"correctAnswer": "c"
+		},
+		{
+			"question": "If a step up chopper’s switch is always kept open then (ideally) then?",
+			"answers": {
+				"a": "Vo = 0",
+				"b": "Vo = Vs",
+				"c": "Vo = ∞",
+				"d": "Vo > Vs"
+			},
+			"correctAnswer": "c"
+		},
+		{
+			"question": "For a step-up chopper, when the duty cycle is increased the average value of the output voltage?",
+			"answers": {
+				"a": "decreases",
+				"b": "increases",
+				"c": "remains the same",
+				"d": "none of the mentioned"
+			},
+			"correctAnswer": "b"
+		}
+	]

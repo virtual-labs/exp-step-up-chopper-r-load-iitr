@@ -1,0 +1,56 @@
+[
+		{
+			"question": " Choppers converter is ?",
+			"answers": {
+				"a": "AC to DC",
+				"b": "DC to AC",
+				"c": "DC to DC",
+				"d": "AC to AC"
+			},
+			"correctAnswer": "c"
+		},
+		{
+			"question": "A step-up chopper has input voltage of 220 V and output voltage of 660 V. If the conduction time of chopper is 100 μs, compute Toff width of the output voltage pulse?",
+			"answers": {
+				"a": "100 μs",
+				"b": "150 μs",
+				"c": "50 μs",
+				"d": "Insufficient data"
+			},
+			"correctAnswer": "c"
+		},
+		{
+			"question": "What is the duty cycle of a chopper ?",
+			"answers": {
+				"a": "Ton/Toff",
+				"b": "Ton/T",
+				"c": "T/Ton",
+				"d": "Toff * Ton"
+			},
+			"correctAnswer": "b"
+		},
+		{
+			"question": "Which device can be used in a chopper circuit ?",
+			"answers": {
+				"a": "IGBT",
+				"b": "MOSFET",
+				"c": "GTO",
+				"d": "All of the above"
+			},
+			"correctAnswer": "d"
+		},
+		{
+			"question": "If T is the time period for a chopper circuit and α is its duty cycle, then the chopping frequency is?",
+			"answers": {
+				"a": "Ton/α",
+				"b": "α/Ton",
+				"c": "Toff/α",
+				"d": "α/Toff"
+			},
+			"correctAnswer": "b"
+		}
+	]
+
+
+
+
