@@ -29,9 +29,12 @@ During the TON period, energy is stored in the inductor L. This energy storage i
 Since, the current through the inductor L tends to decrease, the polarity of the emf induced in inductor L is reversed as shown in above figure. 
 As a result, the voltage across the load becomes equal to the sum of source voltage and emf induced in inductor. Thus, the output voltage exceeds the source voltage Vs. The load / output voltage may be written as below.
 
+$$(Req)2 = R3+\frac{R1⋅R2}{R1+R2}$$ 
+
 <center>
 
 $ V_o = V_s + L \frac {di}{dt}....(1)$
+
 
 </center>
 
