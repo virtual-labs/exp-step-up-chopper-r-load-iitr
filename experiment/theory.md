@@ -1,4 +1,12 @@
 
+<head>
+
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> 
+  
+</script>
+
+</head>
+
 <div style="font-family: 'Nunito Sans', sans-serif; font-size: 20px;text-align: justify;">
 
 ### **Introduction**
@@ -31,7 +39,7 @@ As a result, the voltage across the load becomes equal to the sum of source volt
 
 <center>
 
-$ V_o = V_s + L \frac {di}{dt}....(1)$
+$$V_o = V_s + L \frac {di}{dt}....(1)$$
 
 </center>
 
@@ -54,14 +62,13 @@ Energy stored in the inductor L is given by
 
 <center>
 
-$= ( Voltage \; across \; L)(Avg. \; current \; through \; L) *T_{ON}$ 
+$$ = (Voltage ~ across ~ L)(Avg. ~ current ~ through ~ L) *T_{ON}$$ 
 
 </center>
 
-
 <center>
 
-$= \frac {V_s(I_1+I_2)}{2} * T_{ON}....(2)$
+$$ = \frac {V_s(I_1+I_2)}{2} * T_{ON}....(2)$$
 
 </center>
 
@@ -69,13 +76,13 @@ When chopper is switched OFF, the energy released by inductor to the load is giv
 
 <center>
 
-$= ( Voltage  \; across \; L)(Avg. \; current \; through \; L) *T_{OFF}$
+$$ = (Voltage ~ across ~ L)(Avg. ~ current ~ through ~ L) * T_{OFF}$$
 
 </center>
 
 <center>
 
-$= (V_o-V_s)  \frac {(I_1+I_2)}{2}*T_{OFF}....(3)$ 
+$$ = (V_o-V_s)  \frac {(I_1+I_2)}{2}*T_{OFF}....(3)$$ 
  
 </center>
 
@@ -83,31 +90,32 @@ Considering the system to be lossless, these two energies given by equation (2) 
 
 <center>
 
-$V_s \frac {(I_1+I_2)}{2}*T_{ON} = (V_o-V_s)\frac {(I_1+I_2)}{2}*T_{OFF}....(4)$ 
+$$V_s \frac {(I_1+I_2)}{2}*T_{ON} = (V_o-V_s)\frac {(I_1+I_2)}{2}*T_{OFF}....(4)$$ 
  
 </center>
 
 <center>
 
-$V_s * T_{ON} = V_o* T_{OFF}-V_s*T_{OFF}$  
+$$V_s * T_{ON} = V_o * T_{OFF} - V_s * T_{OFF}$$  
 
 </center>
 
 <center>
 
-$V_o* T_{OFF} = V_{s}(T_{ON}-T_{OFF}) = V_{s}*T$
+$$V_o * T_{OFF} = V_{s}(T_{ON} - T_{OFF}) = V_{s} * T$$
 
 </center>
 
 <center>
 
-$V_o = V_s \frac {T}{T_{OFF}} = V_s*\frac {T}{T-T_{ON}}$
+$$V_o = V_s \frac {T}{T_{OFF}} = V_s*\frac {T}{T-T_{ON}}$$
 
 </center>
 
 <center>
 
-$V_o = V_s * \frac {1}{1- \alpha}....(5)$ 
+$$V_o = V_s * \frac {1}{1- \alpha}....(5)$$
+ 
  
 </center>
       
