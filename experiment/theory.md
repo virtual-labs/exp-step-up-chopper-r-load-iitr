@@ -41,6 +41,7 @@ As a result, the voltage across the load becomes equal to the sum of source volt
 
 $$V_o = V_s + L \frac {di}{dt}....(1)$$
 
+
 </center>
 
 Thus, the circuit works as a step-up chopper. It may be noted here that, the voltage across the load increases because the inductor releases its stored energy to the load during the OFF period.
